@@ -1,0 +1,14 @@
+{
+  "name": "vibecoding-baza",
+  "version": "1.0.0",
+  "description": "Вайб-кодинг с нуля — база знаний для новичков",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
