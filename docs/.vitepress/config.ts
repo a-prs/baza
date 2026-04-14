@@ -16,6 +16,7 @@ export default defineConfig({
       { text: 'Теория', link: '/theory/01-basic-concepts' },
       { text: 'Практика', link: '/practice/00-quickstart' },
       { text: 'Готовые решения', link: '/solutions/' },
+      { text: 'Услуги', link: '/services/' },
     ],
 
     sidebar: {
