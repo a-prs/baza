@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: 'Теория', link: '/theory/01-basic-concepts' },
       { text: 'Практика', link: '/practice/00-quickstart' },
+      { text: 'Готовые решения', link: '/solutions/' },
     ],
 
     sidebar: {
@@ -44,6 +45,15 @@ export default defineConfig({
             { text: 'MCP-сервер n8n', link: '/practice/06-mcp-n8n-setup' },
             { text: 'Low-code деплой', link: '/practice/07-lowcode-deploy' },
             { text: 'Шпаргалка', link: '/practice/08-cheatsheet' },
+          ],
+        },
+      ],
+      '/solutions/': [
+        {
+          text: '📦 Готовые решения',
+          items: [
+            { text: 'Обзор', link: '/solutions/' },
+            { text: 'QwenClaw — ИИ в Telegram', link: '/solutions/qwenclaw' },
           ],
         },
       ],
