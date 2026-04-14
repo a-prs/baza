@@ -22,9 +22,17 @@
 }
 
 /* ===== ШРИФТЫ ===== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700;800;900&display=swap');
+
 :root {
-  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --vp-font-family-base: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+h1, h2, h3, h4, h5, h6,
+.VPHero .name,
+.VPHero .text {
+  font-family: 'Unbounded', sans-serif !important;
 }
 
 /* ===== КАСТОМНЫЕ БЛОКИ "Проще говоря" ===== */
