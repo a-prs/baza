@@ -195,6 +195,53 @@ Qwen Code запустится. Теперь напиши ему:
 
 ---
 
+## Бонус: QwenClaw — ИИ-агент в Telegram за 10 минут
+
+Хочешь ИИ-ассистента, который доступен прямо в Telegram? **QwenClaw** — это готовый проект, который ставится одной командой на сервер и даёт тебе персонального ИИ-агента в Telegram. Почти бесплатно — те же 1000 запросов в день от Qwen.
+
+### Что умеет
+
+- Общение с ИИ прямо в Telegram — пишешь сообщение, получаешь ответ
+- Несколько сессий — можно вести разные проекты параллельно
+- Голосовые сообщения — говоришь голосом, бот понимает (через Groq Whisper)
+- Форматирование кода — ответы с подсветкой синтаксиса
+- Автозапуск — работает 24/7, перезапускается после перезагрузки сервера
+
+### Что нужно
+
+- VPS (сервер) на Ubuntu/Debian — [как арендовать](/practice/04-connect-server)
+- Telegram-бот (создаётся за 2 минуты через [@BotFather](https://t.me/BotFather))
+- Твой Chat ID (узнать через [@userinfobot](https://t.me/userinfobot))
+
+### Установка — одна команда
+
+Подключись к серверу через Termius и выполни:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/a-prs/QwenClaw/main/install.sh -o /tmp/install.sh && sudo bash /tmp/install.sh
+```
+
+Скрипт сам установит всё необходимое (Node.js, Python, Qwen Code CLI), спросит токен бота и Chat ID, проведёт авторизацию Qwen и запустит бота.
+
+Через 10 минут у тебя в Telegram — персональный ИИ-ассистент.
+
+**Репозиторий:** [github.com/a-prs/QwenClaw](https://github.com/a-prs/QwenClaw)
+
+### Видеоинструкция
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 12px; margin: 16px 0;">
+  <iframe
+    src="https://www.youtube.com/embed/FZhuV3ayIUQ"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+[Смотреть на YouTube →](https://www.youtube.com/watch?v=FZhuV3ayIUQ)
+
+---
+
 ## Также пригодится: Python и Git
 
 Для более серьёзных проектов (боты, скрипты, серверные приложения) понадобятся ещё два инструмента:
