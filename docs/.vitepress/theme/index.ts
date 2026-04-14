@@ -8,6 +8,7 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'doc-after': () => h(TelegramFooter),
+      'layout-bottom': () => h(TelegramFooter),
     })
   },
 }

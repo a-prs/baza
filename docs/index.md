@@ -47,6 +47,17 @@ features:
   </div>
 </div>
 
+<div class="services-section">
+  <a href="/services/" class="services-banner">
+    <div class="services-content">
+      <div class="services-label">Услуги</div>
+      <h2 class="services-title">Сделаю для вас</h2>
+      <p class="services-desc">Автоматизации, Telegram-боты, AI-решения, сайты — быстро и под ключ. Вайб-кодинг ускоряет разработку в разы.</p>
+      <span class="services-cta">Подробнее и цены →</span>
+    </div>
+  </a>
+</div>
+
 <style>
 .extra-section {
   max-width: 1152px;
@@ -137,5 +148,82 @@ features:
   color: var(--vp-c-brand-1);
   border-color: var(--vp-c-brand-soft);
   background: var(--vp-c-brand-soft);
+}
+
+/* Services banner */
+.services-section {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+
+.services-banner {
+  display: block;
+  padding: 32px 36px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, #2563eb 100%);
+  text-decoration: none !important;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 50%;
+}
+
+.services-banner:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(124, 58, 237, 0.3);
+}
+
+.services-content {
+  position: relative;
+  z-index: 1;
+}
+
+.services-label {
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.services-title {
+  font-size: 1.6em;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.services-desc {
+  font-size: 0.95em;
+  opacity: 0.9;
+  line-height: 1.6;
+  margin: 0 0 18px;
+  max-width: 600px;
+}
+
+.services-cta {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.18);
+  font-weight: 500;
+  font-size: 0.9em;
+  transition: background 0.3s;
+}
+
+.services-banner:hover .services-cta {
+  background: rgba(255,255,255,0.28);
 }
 </style>
