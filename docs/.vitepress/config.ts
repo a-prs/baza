@@ -64,6 +64,7 @@ export default defineConfig({
             { text: 'Работа с файлами', link: '/practice/23-files' },
             { text: 'FastAPI: своё API', link: '/practice/24-fastapi' },
             { text: 'Рефакторинг кода', link: '/practice/25-refactoring' },
+            { text: 'Docker', link: '/practice/26-docker' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
