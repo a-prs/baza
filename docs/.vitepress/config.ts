@@ -116,6 +116,7 @@ export default defineConfig({
             { text: 'Продвинутые asyncio паттерны', link: '/practice/56-async-patterns' },
             { text: 'Работа с Telegram-группами', link: '/practice/57-telegram-groups' },
             { text: 'Платежи через ЮКассу', link: '/practice/58-payments-yookassa' },
+            { text: 'Голос и аудио', link: '/practice/59-voice-and-audio' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
