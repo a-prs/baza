@@ -30,6 +30,7 @@ export default defineConfig({
             { text: 'Структура проекта и CLAUDE.md', link: '/theory/04-project-structure' },
             { text: 'Серверы и домены', link: '/theory/05-servers-and-domains' },
             { text: 'MCP-серверы', link: '/theory/06-mcp-servers' },
+            { text: 'Планирование проекта', link: '/theory/07-planning' },
           ],
         },
       ],
