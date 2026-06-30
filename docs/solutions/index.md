@@ -75,6 +75,16 @@
 </a>
 
 
+<a href="/solutions/voice-bot" class="solution-card">
+  <div class="solution-icon">🎙️</div>
+  <h3>Voice-бот: голос → Claude</h3>
+  <p>Пользователь говорит — бот слышит (Whisper), понимает (Claude) и отвечает. Работает с голосовыми и кружками.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Whisper</span>
+  <span class="solution-tag">Claude</span>
+  <span class="solution-tag">40 минут</span>
+</a>
+
 <a href="/solutions/content-scheduler" class="solution-card">
   <div class="solution-icon">📅</div>
   <h3>Планировщик контента с AI</h3>
