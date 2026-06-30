@@ -74,6 +74,16 @@
   <span class="solution-tag">60 минут</span>
 </a>
 
+
+<a href="/solutions/rag-bot" class="solution-card">
+  <div class="solution-icon">🧠</div>
+  <h3>RAG-бот: чат с документами</h3>
+  <p>Бот отвечает на вопросы только по твоим документам. Загружаешь статьи, FAQ или инструкции — бот знает их наизусть.</p>
+  <span class="solution-tag">Python</span>
+  <span class="solution-tag">Claude</span>
+  <span class="solution-tag">45 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
