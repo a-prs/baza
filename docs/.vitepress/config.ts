@@ -47,6 +47,7 @@ export default defineConfig({
           ],
         },
       ],
+
       '/practice/': [
         {
           text: '🛠 Практика',
@@ -101,6 +102,7 @@ export default defineConfig({
             { text: 'Serverless функции', link: '/practice/48-serverless' },
             { text: 'Работа с PDF', link: '/practice/49-pdf-processing' },
             { text: 'Google Sheets API', link: '/practice/50-google-sheets' },
+            { text: 'Мультимодальный AI (Vision)', link: '/practice/51-multimodal' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
@@ -130,6 +132,7 @@ export default defineConfig({
             { text: 'Автопостинг из Airtable', link: '/solutions/airtable-bot' },
             { text: 'Аналитика Telegram-канала', link: '/solutions/channel-analytics-bot' },
             { text: 'Бот службы поддержки', link: '/solutions/support-bot' },
+            { text: 'Бот-викторина с AI', link: '/solutions/quiz-bot' },
           ],
         },
       ],

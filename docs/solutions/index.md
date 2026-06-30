@@ -184,6 +184,15 @@
   <span class="solution-tag">60 минут</span>
 </a>
 
+<a href="/solutions/quiz-bot" class="solution-card">
+  <div class="solution-icon">🧠</div>
+  <h3>Бот-викторина с AI</h3>
+  <p>Claude генерирует уникальные вопросы по любой теме с вариантами ответа. Прогресс, объяснения, таблица лидеров — всё готово.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">FSM</span>
+  <span class="solution-tag">55 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
