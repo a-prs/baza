@@ -65,6 +65,15 @@
   <span class="solution-tag">20 минут</span>
 </a>
 
+<a href="/solutions/payment-bot" class="solution-card">
+  <div class="solution-icon">💳</div>
+  <h3>Бот с приёмом оплаты</h3>
+  <p>Telegram-бот принимает оплату картой прямо в чате через ЮКассу или Stripe. Каталог, инвойс, выдача товара.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">ЮКасса</span>
+  <span class="solution-tag">60 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт

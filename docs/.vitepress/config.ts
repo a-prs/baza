@@ -86,6 +86,7 @@ export default defineConfig({
             { text: 'AI-дайджест в Telegram', link: '/solutions/n8n-ai-digest' },
             { text: 'Telegram Mini App', link: '/solutions/telegram-mini-app' },
             { text: 'Лендинг с формой', link: '/solutions/lead-landing' },
+            { text: 'Бот с оплатой', link: '/solutions/payment-bot' },
           ],
         },
       ],
