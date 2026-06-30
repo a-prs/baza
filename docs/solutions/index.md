@@ -193,6 +193,15 @@
   <span class="solution-tag">55 минут</span>
 </a>
 
+<a href="/solutions/invoice-bot" class="solution-card">
+  <div class="solution-icon">🧾</div>
+  <h3>Бот для счетов (Invoice)</h3>
+  <p>Создаёт профессиональный PDF-счёт за 2 минуты: выбери клиента, добавь позиции — получи документ с реквизитами. Для фрилансеров.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">ReportLab</span>
+  <span class="solution-tag">45 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт

@@ -135,6 +135,7 @@ export default defineConfig({
             { text: 'Аналитика Telegram-канала', link: '/solutions/channel-analytics-bot' },
             { text: 'Бот службы поддержки', link: '/solutions/support-bot' },
             { text: 'Бот-викторина с AI', link: '/solutions/quiz-bot' },
+            { text: 'Бот для счетов (Invoice)', link: '/solutions/invoice-bot' },
           ],
         },
       ],
