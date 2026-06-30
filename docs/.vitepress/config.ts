@@ -88,6 +88,7 @@ export default defineConfig({
             { text: 'Telegram Admin Panel', link: '/practice/40-admin-panel' },
             { text: 'Rate Limiting', link: '/practice/41-rate-limiting' },
             { text: 'OAuth: вход через Google', link: '/practice/42-oauth' },
+            { text: 'Кэширование', link: '/practice/43-caching' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
