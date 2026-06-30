@@ -75,6 +75,15 @@
 </a>
 
 
+<a href="/solutions/content-scheduler" class="solution-card">
+  <div class="solution-icon">📅</div>
+  <h3>Планировщик контента с AI</h3>
+  <p>Даёшь тему — Claude генерирует план на неделю. Одобряешь — бот публикует по расписанию без твоего участия.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Claude</span>
+  <span class="solution-tag">60 минут</span>
+</a>
+
 <a href="/solutions/ai-reviewer" class="solution-card">
   <div class="solution-icon">🔍</div>
   <h3>AI-ревьюер текстов</h3>
