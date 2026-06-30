@@ -53,6 +53,8 @@ export default defineConfig({
             { text: 'Несколько проектов на сервере', link: '/practice/13-multiple-projects' },
             { text: 'Библиотека промптов', link: '/practice/14-prompt-library' },
             { text: 'Базы данных', link: '/practice/15-databases' },
+            { text: 'Мониторинг', link: '/practice/16-monitoring' },
+            { text: 'Python-скрипты', link: '/practice/17-python-scripts' },
           ],
         },
       ],

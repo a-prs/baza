@@ -72,7 +72,7 @@ https://site.com/rss.xml
 Чтобы одна статья не приходила дважды — используем n8n встроенный **Deduplication** (или **If** + **Set** для хранения просмотренных):
 
 1. **+** → **Deduplicate Items** (или найди через поиск)
-2. Поле для дедупликации: `{{ $json.link }}`
+2. Поле для дедупликации: <code v-pre>{{ $json.link }}</code>
 
 ### Отправка в Telegram
 
@@ -81,7 +81,7 @@ https://site.com/rss.xml
 3. **Chat ID:** твой Chat ID из Шага 1
 4. **Text:**
 
-```
+```text
 📰 {{ $json.title }}
 
 {{ $json.contentSnippet | truncate(200) }}
@@ -121,7 +121,7 @@ https://site.com/rss.xml
 
 Или через n8n вручную: добавь ноду **OpenAI** между RSS и Telegram, с промптом:
 
-```
+```text
 Суммаризируй эту статью в 2 предложения на русском:
 {{ $json.content }}
 ```
