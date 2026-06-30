@@ -166,6 +166,15 @@
   <span class="solution-tag">40 минут</span>
 </a>
 
+<a href="/solutions/channel-analytics-bot" class="solution-card">
+  <div class="solution-icon">📊</div>
+  <h3>Аналитика Telegram-канала</h3>
+  <p>Бот для владельца канала: топ постов, рост подписчиков, недельный дайджест. Форвардь посты боту — он собирает статистику.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">SQLite</span>
+  <span class="solution-tag">45 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
