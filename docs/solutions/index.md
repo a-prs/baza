@@ -211,6 +211,15 @@
   <span class="solution-tag">40 минут</span>
 </a>
 
+<a href="/solutions/lead-qualifier-bot" class="solution-card">
+  <div class="solution-icon">🎯</div>
+  <h3>Бот-квалификатор лидов</h3>
+  <p>FSM-анкета с AI-оценкой (горячий/тёплый/холодный), уведомление менеджера с резюме и дальнейшим действием, лид-база.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Claude Haiku</span>
+  <span class="solution-tag">45 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
