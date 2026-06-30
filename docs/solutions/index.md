@@ -38,6 +38,15 @@
   <span class="solution-tag">30 минут</span>
 </a>
 
+<a href="/solutions/n8n-ai-digest" class="solution-card">
+  <div class="solution-icon">🤖</div>
+  <h3>AI-дайджест в Telegram</h3>
+  <p>n8n каждое утро собирает новости из RSS, суммаризирует через OpenAI и присылает дайджест.</p>
+  <span class="solution-tag">n8n</span>
+  <span class="solution-tag">OpenAI</span>
+  <span class="solution-tag">30 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт

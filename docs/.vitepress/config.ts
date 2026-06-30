@@ -78,6 +78,7 @@ export default defineConfig({
             { text: 'RSS-бот в Telegram', link: '/solutions/rss-bot' },
             { text: 'Монитор цен', link: '/solutions/price-monitor' },
             { text: 'Автопостинг из Sheets', link: '/solutions/google-sheets-bot' },
+            { text: 'AI-дайджест в Telegram', link: '/solutions/n8n-ai-digest' },
           ],
         },
       ],
