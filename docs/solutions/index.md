@@ -47,6 +47,15 @@
   <span class="solution-tag">30 минут</span>
 </a>
 
+<a href="/solutions/telegram-mini-app" class="solution-card">
+  <div class="solution-icon">📱</div>
+  <h3>Telegram Mini App</h3>
+  <p>Веб-приложение прямо внутри Telegram: форма заявки, каталог или калькулятор — без выхода из мессенджера.</p>
+  <span class="solution-tag">HTML/JS</span>
+  <span class="solution-tag">FastAPI</span>
+  <span class="solution-tag">45 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
