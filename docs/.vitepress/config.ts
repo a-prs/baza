@@ -33,6 +33,7 @@ export default defineConfig({
             { text: 'Планирование проекта', link: '/theory/07-planning' },
             { text: 'Безопасность', link: '/theory/08-security' },
             { text: 'Как работает HTTP', link: '/theory/09-http-basics' },
+            { text: 'Монетизация', link: '/theory/10-monetization' },
           ],
         },
       ],
