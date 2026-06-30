@@ -58,6 +58,7 @@ export default defineConfig({
             { text: 'Python-скрипты', link: '/practice/17-python-scripts' },
             { text: 'Вебхуки', link: '/practice/19-webhooks' },
             { text: 'Деплой без сервера', link: '/practice/20-deploy-platforms' },
+            { text: 'Внешние API', link: '/practice/21-external-apis' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
