@@ -22,6 +22,14 @@
   <span class="solution-tag">30 минут</span>
 </a>
 
+<a href="/solutions/price-monitor" class="solution-card">
+  <div class="solution-icon">📊</div>
+  <h3>Монитор цен</h3>
+  <p>Скрипт следит за ценой или любым значением на сайте и шлёт уведомление в Telegram при изменении.</p>
+  <span class="solution-tag">Python</span>
+  <span class="solution-tag">20 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт

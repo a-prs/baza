@@ -67,6 +67,7 @@ export default defineConfig({
             { text: 'Обзор', link: '/solutions/' },
             { text: 'QwenClaw — ИИ в Telegram', link: '/solutions/qwenclaw' },
             { text: 'RSS-бот в Telegram', link: '/solutions/rss-bot' },
+            { text: 'Монитор цен', link: '/solutions/price-monitor' },
           ],
         },
       ],
