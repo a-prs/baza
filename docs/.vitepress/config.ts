@@ -61,6 +61,7 @@ export default defineConfig({
             { text: 'Деплой без сервера', link: '/practice/20-deploy-platforms' },
             { text: 'Внешние API', link: '/practice/21-external-apis' },
             { text: 'Тестирование', link: '/practice/22-testing' },
+            { text: 'Работа с файлами', link: '/practice/23-files' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
