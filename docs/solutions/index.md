@@ -30,6 +30,14 @@
   <span class="solution-tag">20 минут</span>
 </a>
 
+<a href="/solutions/google-sheets-bot" class="solution-card">
+  <div class="solution-icon">📋</div>
+  <h3>Автопостинг из Google Sheets</h3>
+  <p>Ведёшь контент-план в таблице — скрипт сам публикует посты в Telegram-канал по расписанию.</p>
+  <span class="solution-tag">Python</span>
+  <span class="solution-tag">30 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт

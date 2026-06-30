@@ -71,6 +71,7 @@ export default defineConfig({
             { text: 'QwenClaw — ИИ в Telegram', link: '/solutions/qwenclaw' },
             { text: 'RSS-бот в Telegram', link: '/solutions/rss-bot' },
             { text: 'Монитор цен', link: '/solutions/price-monitor' },
+            { text: 'Автопостинг из Sheets', link: '/solutions/google-sheets-bot' },
           ],
         },
       ],
