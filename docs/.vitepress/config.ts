@@ -55,6 +55,7 @@ export default defineConfig({
             { text: 'Базы данных', link: '/practice/15-databases' },
             { text: 'Мониторинг', link: '/practice/16-monitoring' },
             { text: 'Python-скрипты', link: '/practice/17-python-scripts' },
+            { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
       ],
