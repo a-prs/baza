@@ -148,6 +148,15 @@
   <span class="solution-tag">45 минут</span>
 </a>
 
+<a href="/solutions/subscription-bot" class="solution-card">
+  <div class="solution-icon">💎</div>
+  <h3>Бот с платной подпиской</h3>
+  <p>Freemium-модель: 5 бесплатных AI-запросов в день, безлимит — за Telegram Stars. Продление подписки, планы, история покупок.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Stars</span>
+  <span class="solution-tag">50 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
