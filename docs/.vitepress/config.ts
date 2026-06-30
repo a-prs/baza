@@ -31,6 +31,7 @@ export default defineConfig({
             { text: 'Серверы и домены', link: '/theory/05-servers-and-domains' },
             { text: 'MCP-серверы', link: '/theory/06-mcp-servers' },
             { text: 'Планирование проекта', link: '/theory/07-planning' },
+            { text: 'Безопасность', link: '/theory/08-security' },
           ],
         },
       ],
