@@ -56,6 +56,15 @@
   <span class="solution-tag">45 минут</span>
 </a>
 
+<a href="/solutions/lead-landing" class="solution-card">
+  <div class="solution-icon">🚀</div>
+  <h3>Лендинг с формой заявки</h3>
+  <p>Тёмный одностраничник с формой: пользователь отправляет — тебе мгновенно приходит уведомление в Telegram.</p>
+  <span class="solution-tag">HTML/CSS</span>
+  <span class="solution-tag">Без сервера</span>
+  <span class="solution-tag">20 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
