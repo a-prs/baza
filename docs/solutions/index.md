@@ -75,6 +75,15 @@
 </a>
 
 
+<a href="/solutions/ai-reviewer" class="solution-card">
+  <div class="solution-icon">🔍</div>
+  <h3>AI-ревьюер текстов</h3>
+  <p>Бот принимает резюме, посты или питчи и даёт структурированный разбор через Claude: что работает, что нет, как улучшить.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Claude</span>
+  <span class="solution-tag">45 минут</span>
+</a>
+
 <a href="/solutions/notion-bot" class="solution-card">
   <div class="solution-icon">📝</div>
   <h3>Автопостинг из Notion</h3>
