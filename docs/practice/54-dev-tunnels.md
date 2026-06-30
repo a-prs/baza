@@ -16,6 +16,8 @@ ngrok config add-authtoken <TOKEN>
 ngrok http 8000
 ```
 
+> 💬 «Установи ngrok и открой туннель на порт 8000 для тестирования вебхуков»
+
 Вывод:
 ```
 Forwarding  https://abc123.ngrok-free.app -> http://localhost:8000
@@ -90,6 +92,8 @@ cloudflared tunnel route dns dev dev.yourdomain.com
 cloudflared tunnel run dev
 ```
 
+> 💬 «Настрой Cloudflare Tunnel с постоянным субдоменом dev.yourdomain.com на localhost:8000»
+
 Теперь `https://dev.yourdomain.com` → localhost:8000, всегда один и тот же адрес.
 
 ## localtunnel (без регистрации)
@@ -98,6 +102,8 @@ cloudflared tunnel run dev
 npm install -g localtunnel
 lt --port 8000 --subdomain mybot  # https://mybot.loca.lt
 ```
+
+> 💬 «Установи localtunnel и открой туннель с постоянным субдоменом»
 
 Бесплатно, без регистрации, но нестабильно.
 
@@ -114,6 +120,8 @@ stripe listen --forward-to localhost:8000/webhook/stripe
 # Тест конкретного события
 stripe trigger payment_intent.succeeded
 ```
+
+> 💬 «Запусти Stripe CLI и форвардируй вебхуки на localhost для тестирования»
 
 Stripe CLI сам создаёт WEBHOOK_SECRET для локальной разработки:
 ```
@@ -166,6 +174,8 @@ python bot.py
 kill $NGROK_PID
 ```
 
+> 💬 «Создай скрипт dev.sh который запускает ngrok, ставит вебхук и запускает бота»
+
 ## .env для разработки
 
 ```bash
@@ -176,6 +186,8 @@ WEBHOOK_MODE=false  # использовать long polling локально
 # Или
 WEBHOOK_URL=https://your-ngrok-url.ngrok-free.app
 ```
+
+> 💬 «Добавь переключение между webhook и long polling через переменную WEBHOOK_MODE в .env»
 
 ```python
 # bot.py — выбор режима по env

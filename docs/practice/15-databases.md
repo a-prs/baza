@@ -85,6 +85,8 @@ systemctl start postgresql
 systemctl enable postgresql
 ```
 
+> 💬 «Установи PostgreSQL на сервере Ubuntu и запусти его»
+
 Создать базу и пользователя:
 
 ```bash
@@ -96,11 +98,15 @@ GRANT ALL PRIVILEGES ON DATABASE myapp TO myuser;
 \q
 ```
 
+> 💬 «Создай базу данных myapp и пользователя myuser в PostgreSQL»
+
 ### Python + PostgreSQL
 
 ```bash
 pip install psycopg2-binary
 ```
+
+> 💬 «Установи psycopg2-binary для подключения Python к PostgreSQL»
 
 ```python
 import psycopg2
@@ -149,6 +155,8 @@ SUPABASE_KEY=твой-anon-key
 npm install @supabase/supabase-js
 ```
 
+> 💬 «Установи Supabase клиент для JavaScript проекта»
+
 ```javascript
 const { createClient } = require('@supabase/supabase-js')
 
@@ -174,6 +182,8 @@ const { data } = await supabase
 ```bash
 pip install supabase
 ```
+
+> 💬 «Установи Supabase клиент для Python проекта»
 
 ```python
 from supabase import create_client

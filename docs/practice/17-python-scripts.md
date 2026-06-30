@@ -184,6 +184,8 @@ notify(f"⚠️ Ошибка: {str(e)}")
 
 ### Через cron (на сервере)
 
+> 💬 «Добавь запуск скрипта /opt/scripts/daily_report.py каждый день в 9:00 через cron. Путь к python: /opt/scripts/.venv/bin/python»
+
 ```bash
 crontab -e
 ```
@@ -206,6 +208,8 @@ crontab -e
 :::
 
 ### Через systemd timer (надёжнее cron)
+
+> 💬 «Создай systemd-таймер для ежедневного запуска /opt/scripts/daily_report.py в 9:00. Используй python из /opt/scripts/.venv/bin/python»
 
 Создай два файла: `.service` (что запускать) и `.timer` (когда):
 
@@ -251,6 +255,8 @@ systemctl list-timers
 
 ## Виртуальное окружение на сервере
 
+> 💬 «Создай виртуальное окружение для проекта в /opt/my-script и установи зависимости из requirements.txt»
+
 Всегда используй venv на сервере — разные проекты не конфликтуют:
 
 ```bash
@@ -265,6 +271,8 @@ pip install -r requirements.txt
 ```bash
 pip freeze > requirements.txt
 ```
+
+> 💬 «Сохрани список всех установленных пакетов в requirements.txt»
 
 ## Типовой промпт для скрипта
 

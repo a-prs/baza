@@ -27,6 +27,8 @@ mkdir Projects/my-bot
 cd Projects/my-bot
 ```
 
+> 💬 «Создай папку для нового Telegram-бота в Projects/my-bot»
+
 Создай файл `.env`:
 
 ```
@@ -53,6 +55,8 @@ source .venv/bin/activate          # активировать (Mac/Linux)
 
 pip install aiogram python-dotenv
 ```
+
+> 💬 «Создай виртуальное окружение и установи aiogram и python-dotenv»
 
 ::: tip Что такое виртуальное окружение
 Это изолированная папка с библиотеками для конкретного проекта. Как отдельная полка для каждого проекта — библиотеки проектов не мешают друг другу. `.venv/` создаётся в папке проекта и не попадает в git.
@@ -120,6 +124,8 @@ if __name__ == "__main__":
 python bot.py
 ```
 
+> 💬 «Запусти Telegram-бота локально для тестирования»
+
 Открой Telegram, найди своего бота (по username из Шага 1) и напиши ему. Бот должен ответить.
 
 Для остановки — нажми `Ctrl+C`.
@@ -157,6 +163,8 @@ python bot.py
 scp -r Projects/my-bot root@185.143.72.31:/opt/my-bot
 ```
 
+> 💬 «Скопируй папку с ботом на сервер 185.143.72.31 в /opt/my-bot»
+
 ### Создай .env на сервере
 
 ```bash
@@ -164,6 +172,8 @@ ssh root@185.143.72.31
 nano /opt/my-bot/.env
 # вставь BOT_TOKEN=...
 ```
+
+> 💬 «Подключись к серверу 185.143.72.31 и создай .env файл в /opt/my-bot с переменной BOT_TOKEN»
 
 ### Установи зависимости на сервере
 
@@ -174,6 +184,8 @@ source .venv/bin/activate
 pip install aiogram python-dotenv
 ```
 
+> 💬 «Создай виртуальное окружение и установи зависимости бота на сервере в /opt/my-bot»
+
 ### Настрой автозапуск через systemd
 
 Создай файл сервиса:
@@ -181,6 +193,8 @@ pip install aiogram python-dotenv
 ```bash
 nano /etc/systemd/system/my-bot.service
 ```
+
+> 💬 «Создай systemd-сервис для автозапуска Telegram-бота из /opt/my-bot — запускать bot.py через venv, рестарт при падении»
 
 Вставь:
 
@@ -209,11 +223,15 @@ systemctl enable my-bot
 systemctl start my-bot
 ```
 
+> 💬 «Зарегистрируй и запусти сервис my-bot через systemd»
+
 Проверь статус:
 
 ```bash
 systemctl status my-bot
 ```
+
+> 💬 «Проверь статус бота my-bot — запущен ли он»
 
 Должно показать `active (running)`.
 
@@ -225,6 +243,8 @@ systemctl status my-bot
 scp Projects/my-bot/bot.py root@185.143.72.31:/opt/my-bot/
 ssh root@185.143.72.31 "systemctl restart my-bot"
 ```
+
+> 💬 «Обнови bot.py на сервере и перезапусти сервис»
 
 Или настрой деплой через GitHub — после каждого `git push` бот обновляется автоматически (тема для отдельной главы).
 

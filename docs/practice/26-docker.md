@@ -21,6 +21,8 @@ docker --version
 docker run hello-world
 ```
 
+> 💬 «Установи Docker на Ubuntu и проверь что работает»
+
 ## Dockerfile — рецепт контейнера
 
 Для Python-приложения (бота, скрипта, FastAPI):
@@ -109,6 +111,8 @@ docker rm my-bot
 docker exec -it my-bot bash
 ```
 
+> 💬 «Собери Docker-образ из текущей папки и запусти контейнер my-bot в фоне с .env файлом»
+
 ## Docker Compose — несколько контейнеров
 
 Когда приложение состоит из нескольких частей (бот + база данных + Redis), удобно описать всё в одном файле:
@@ -153,6 +157,8 @@ docker compose logs bot -f
 docker compose up -d --build
 ```
 
+> 💬 «Запусти все сервисы из docker-compose.yml в фоне»
+
 ## Тома (volumes) — персистентные данные
 
 Данные внутри контейнера исчезают при его удалении. Для сохранения нужны тома:
@@ -168,6 +174,8 @@ services:
       - ./data:/app/data
       - ./logs:/app/logs
 ```
+
+> 💬 «Запусти контейнер my-bot с подключённой папкой /opt/bot-data для хранения данных между перезапусками»
 
 Теперь файлы в `/app/data` живут на хосте в `/opt/bot-data` — переживают удаление контейнера.
 
@@ -194,6 +202,8 @@ docker run -d \
   -v n8n_data:/home/node/.n8n \
   n8nio/n8n
 ```
+
+> 💬 «Запусти PostgreSQL и Redis через Docker с персистентными данными»
 
 ## Промпты для создания Docker-конфигурации
 
