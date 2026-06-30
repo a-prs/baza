@@ -157,6 +157,15 @@
   <span class="solution-tag">50 минут</span>
 </a>
 
+<a href="/solutions/airtable-bot" class="solution-card">
+  <div class="solution-icon">🗄️</div>
+  <h3>Автопостинг из Airtable</h3>
+  <p>Ведёшь контент-план в Airtable — бот публикует в канал по расписанию. Нетехнический редактор просто ставит статус «Готово».</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Airtable API</span>
+  <span class="solution-tag">40 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
