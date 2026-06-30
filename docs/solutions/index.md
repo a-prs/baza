@@ -75,6 +75,15 @@
 </a>
 
 
+<a href="/solutions/telegram-stars" class="solution-card">
+  <div class="solution-icon">⭐</div>
+  <h3>Оплата через Telegram Stars</h3>
+  <p>Принимай платежи в Telegram без ИП и банков. Stars — внутренняя валюта Telegram, работает в любой стране.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Stars</span>
+  <span class="solution-tag">40 минут</span>
+</a>
+
 <a href="/solutions/rag-bot" class="solution-card">
   <div class="solution-icon">🧠</div>
   <h3>RAG-бот: чат с документами</h3>
