@@ -220,6 +220,15 @@
   <span class="solution-tag">45 минут</span>
 </a>
 
+<a href="/solutions/news-aggregator-bot" class="solution-card">
+  <div class="solution-icon">📰</div>
+  <h3>Новостной агрегатор с AI</h3>
+  <p>Парсит RSS, оценивает релевантность через Claude, группирует по темам и публикует дайджесты в канал по расписанию.</p>
+  <span class="solution-tag">feedparser</span>
+  <span class="solution-tag">Claude Haiku</span>
+  <span class="solution-tag">50 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
