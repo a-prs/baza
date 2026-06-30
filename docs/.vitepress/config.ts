@@ -68,6 +68,7 @@ export default defineConfig({
             { text: 'Рефакторинг кода', link: '/practice/25-refactoring' },
             { text: 'Docker', link: '/practice/26-docker' },
             { text: 'Фоновые задачи', link: '/practice/27-async-tasks' },
+            { text: 'Telegram FSM: диалоги', link: '/practice/28-telegram-fsm' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
