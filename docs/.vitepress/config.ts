@@ -71,6 +71,7 @@ export default defineConfig({
             { text: 'Фоновые задачи', link: '/practice/27-async-tasks' },
             { text: 'Telegram FSM: диалоги', link: '/practice/28-telegram-fsm' },
             { text: 'Redis: кэш и очереди', link: '/practice/29-redis' },
+            { text: 'LLM API: ИИ в приложении', link: '/practice/30-llm-api' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
