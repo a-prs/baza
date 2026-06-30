@@ -202,6 +202,15 @@
   <span class="solution-tag">45 минут</span>
 </a>
 
+<a href="/solutions/referral-bot" class="solution-card">
+  <div class="solution-icon">🔗</div>
+  <h3>Реферральная программа</h3>
+  <p>Уникальные пригласительные ссылки, автоматическое начисление бонусных дней, статистика рефераллов и таблица лидеров.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">SQLite</span>
+  <span class="solution-tag">40 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
