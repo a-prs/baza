@@ -62,6 +62,7 @@ export default defineConfig({
             { text: 'Внешние API', link: '/practice/21-external-apis' },
             { text: 'Тестирование', link: '/practice/22-testing' },
             { text: 'Работа с файлами', link: '/practice/23-files' },
+            { text: 'FastAPI: своё API', link: '/practice/24-fastapi' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
