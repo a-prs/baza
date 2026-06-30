@@ -175,6 +175,15 @@
   <span class="solution-tag">45 минут</span>
 </a>
 
+<a href="/solutions/support-bot" class="solution-card">
+  <div class="solution-icon">🎧</div>
+  <h3>Бот службы поддержки</h3>
+  <p>Отвечает на частые вопросы через AI, ищет в базе знаний, создаёт тикеты и передаёт сложные случаи живому оператору.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">Claude</span>
+  <span class="solution-tag">60 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
