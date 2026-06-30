@@ -52,6 +52,7 @@ export default defineConfig({
             { text: 'Git: ветки и откат', link: '/practice/12-git-basics' },
             { text: 'Несколько проектов на сервере', link: '/practice/13-multiple-projects' },
             { text: 'Библиотека промптов', link: '/practice/14-prompt-library' },
+            { text: 'Базы данных', link: '/practice/15-databases' },
           ],
         },
       ],
@@ -61,6 +62,7 @@ export default defineConfig({
           items: [
             { text: 'Обзор', link: '/solutions/' },
             { text: 'QwenClaw — ИИ в Telegram', link: '/solutions/qwenclaw' },
+            { text: 'RSS-бот в Telegram', link: '/solutions/rss-bot' },
           ],
         },
       ],

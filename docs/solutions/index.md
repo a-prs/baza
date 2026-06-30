@@ -14,6 +14,14 @@
   <span class="solution-tag">10 минут</span>
 </a>
 
+<a href="/solutions/rss-bot" class="solution-card">
+  <div class="solution-icon">📰</div>
+  <h3>RSS-бот в Telegram</h3>
+  <p>Автоматический дайджест из любых RSS-источников прямо в Telegram. Настройка через n8n без кода.</p>
+  <span class="solution-tag">n8n</span>
+  <span class="solution-tag">30 минут</span>
+</a>
+
 </div>
 
 ::: info Раздел растёт
