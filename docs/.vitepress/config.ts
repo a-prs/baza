@@ -34,6 +34,7 @@ export default defineConfig({
             { text: 'Безопасность', link: '/theory/08-security' },
             { text: 'Как работает HTTP', link: '/theory/09-http-basics' },
             { text: 'Монетизация', link: '/theory/10-monetization' },
+            { text: 'AI-агенты', link: '/theory/11-ai-agents' },
           ],
         },
       ],
