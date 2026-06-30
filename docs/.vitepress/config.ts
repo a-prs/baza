@@ -108,6 +108,7 @@ export default defineConfig({
             { text: 'Мультимодальный AI (Vision)', link: '/practice/51-multimodal' },
             { text: 'Структурированные ответы AI', link: '/practice/52-structured-outputs' },
             { text: 'Stripe: международные платежи', link: '/practice/53-stripe' },
+            { text: 'Туннели для разработки', link: '/practice/54-dev-tunnels' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
