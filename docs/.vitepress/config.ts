@@ -69,6 +69,7 @@ export default defineConfig({
             { text: 'Docker', link: '/practice/26-docker' },
             { text: 'Фоновые задачи', link: '/practice/27-async-tasks' },
             { text: 'Telegram FSM: диалоги', link: '/practice/28-telegram-fsm' },
+            { text: 'Redis: кэш и очереди', link: '/practice/29-redis' },
             { text: 'Куда расти дальше', link: '/practice/18-roadmap' },
           ],
         },
