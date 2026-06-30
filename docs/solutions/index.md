@@ -75,6 +75,15 @@
 </a>
 
 
+<a href="/solutions/crm-bot" class="solution-card">
+  <div class="solution-icon">👥</div>
+  <h3>Мини-CRM в Telegram</h3>
+  <p>Контакты, статусы, заметки и напоминания прямо в боте. Никаких лишних приложений — всё в одном чате.</p>
+  <span class="solution-tag">aiogram 3</span>
+  <span class="solution-tag">SQLite</span>
+  <span class="solution-tag">60 минут</span>
+</a>
+
 <a href="/solutions/voice-bot" class="solution-card">
   <div class="solution-icon">🎙️</div>
   <h3>Voice-бот: голос → Claude</h3>

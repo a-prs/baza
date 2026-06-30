@@ -111,6 +111,7 @@ export default defineConfig({
             { text: 'AI-ревьюер текстов', link: '/solutions/ai-reviewer' },
             { text: 'Планировщик контента с AI', link: '/solutions/content-scheduler' },
             { text: 'Voice-бот: голос → Claude', link: '/solutions/voice-bot' },
+            { text: 'Мини-CRM в Telegram', link: '/solutions/crm-bot' },
           ],
         },
       ],
