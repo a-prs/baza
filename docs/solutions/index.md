@@ -75,6 +75,15 @@
 </a>
 
 
+<a href="/solutions/notion-bot" class="solution-card">
+  <div class="solution-icon">📝</div>
+  <h3>Автопостинг из Notion</h3>
+  <p>Ведёшь контент-план в Notion — бот сам публикует посты в канал когда статус меняется на «Готово».</p>
+  <span class="solution-tag">Python</span>
+  <span class="solution-tag">Notion API</span>
+  <span class="solution-tag">30 минут</span>
+</a>
+
 <a href="/solutions/telegram-stars" class="solution-card">
   <div class="solution-icon">⭐</div>
   <h3>Оплата через Telegram Stars</h3>
