@@ -75,6 +75,15 @@
 </a>
 
 
+<a href="/solutions/data-export-bot" class="solution-card">
+  <div class="solution-icon">📊</div>
+  <h3>Бот-отчётчик: Excel/PDF/CSV</h3>
+  <p>По команде или расписанию генерирует отчёты из БД или Google Sheets и сразу отправляет файлом в Telegram.</p>
+  <span class="solution-tag">openpyxl</span>
+  <span class="solution-tag">ReportLab</span>
+  <span class="solution-tag">50 минут</span>
+</a>
+
 <a href="/solutions/crm-bot" class="solution-card">
   <div class="solution-icon">👥</div>
   <h3>Мини-CRM в Telegram</h3>
